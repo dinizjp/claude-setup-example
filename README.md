@@ -12,9 +12,15 @@ Aqui você encontra a minha estrutura, enxugada, e os arquivos para usar como mo
 
 **2. Revise seu fluxo.** Não confie em tudo que a IA gera. Revise o que ela fez antes de usar. Eu registro cada correção que faço durante o trabalho e, uma vez por semana, olho o que precisa mudar nas minhas skills. Assim o mesmo erro não volta.
 
-**3. Analise seu trabalho.** Entenda como você trabalha: como é a sua rotina, por onde a informação entra, onde você decide. Procure as etapas em que você virou um copia e cola entre sistemas. Em inglês tem até um nome para isso: *meat proxy*, a pessoa que só serve de ponte entre um sistema e outro. Essas etapas são as primeiras que a IA tira de você, muitas vezes com um script simples que ela mesma escreve.
+**3. Analise seu trabalho.** Entenda como é a sua rotina e procure as etapas em que você virou um copia e cola entre sistemas (*meat proxy*: a pessoa que só serve de ponte entre um sistema e outro). Essas são as primeiras etapas que a IA tira de você.
 
-**4. Pense como quem desenvolve software.** Nada fica pronto na primeira versão. Você cria, usa, vê o que incomoda e melhora, num ciclo que não acaba. Ferramentas entram e saem até você achar o que faz sentido e o fluxo ficar liso. E a IA melhora todo mês, então você vai precisar de cada vez menos skills e plugins, exceto para as tarefas bem específicas do seu dia a dia.
+**4. Pense como quem desenvolve software.** Tudo começa com uma V0, a primeira versão. Você cria, usa, vê o que incomoda ou está incompleto, e melhora. É o ciclo que o [agent-skills](https://github.com/addyosmani/agent-skills) usa:
+
+```
+DEFINE → PLAN → BUILD → VERIFY → REVIEW → SHIP
+```
+
+Repita até o resultado funcionar e fazer o que você queria. Mesmo assim, sempre vai ter erro para consertar e coisa para melhorar: o ciclo é contínuo.
 
 ## A estrutura
 
