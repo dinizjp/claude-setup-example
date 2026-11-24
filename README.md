@@ -1,6 +1,6 @@
 # CSE: Claude Setup Example
 
-A IA já faz parte do trabalho, e quem aprender a trabalhar com ela agora sai na frente. Só que a maior parte do que se fala sobre IA é para programador, ou é promessa vazia.
+A IA já faz parte do trabalho. A tecnologia muda muito mais rápido do que as pessoas e as empresas conseguem acompanhar (a Lei de Martec, do Scott Brinker), e quem aprende a trabalhar com ela agora sai na frente e garante oportunidade.
 
 Este projeto nasce da minha vontade de mostrar o meu processo de verdade: como eu uso o Claude Code no dia a dia, o que funcionou e o que eu joguei fora. O foco é quem não é técnico e quer usar IA para o próprio trabalho, principalmente para se livrar do trabalho de corno: aquelas tarefas repetitivas de copiar informação de um lugar e colar em outro.
 
@@ -10,7 +10,7 @@ Aqui você encontra a minha estrutura, enxugada, e os arquivos para usar como mo
 
 **1. Poucas, mas boas skills.** Mantenha a sua configuração enxuta. Hoje está muito comum ver skill para tudo, mas skill e plugin demais dão trabalho para manter, criam dependência de coisas que outras pessoas fazem, e você acaba não aproveitando quase nada do que instalou. Use as skills dos outros para revisar as suas e para estudar: entenda a lógica por trás do que a pessoa criou e traga essa lógica para o seu dia a dia, em vez de só encaixar a skill no seu fluxo.
 
-**2. Revise seu trabalho.** Não confie em tudo que a IA gera. Revise o que ela fez antes de usar. Eu registro cada correção que faço durante o trabalho e, uma vez por semana, olho o que precisa mudar nas minhas skills. Assim o mesmo erro não volta.
+**2. Revise seu fluxo.** Não confie em tudo que a IA gera. Revise o que ela fez antes de usar. Eu registro cada correção que faço durante o trabalho e, uma vez por semana, olho o que precisa mudar nas minhas skills. Assim o mesmo erro não volta.
 
 **3. Analise seu trabalho.** Entenda como você trabalha: como é a sua rotina, por onde a informação entra, onde você decide. Procure as etapas em que você virou um copia e cola entre sistemas. Em inglês tem até um nome para isso: *meat proxy*, a pessoa que só serve de ponte entre um sistema e outro. Essas etapas são as primeiras que a IA tira de você, muitas vezes com um script simples que ela mesma escreve.
 
@@ -147,7 +147,7 @@ Algumas perguntas para começar:
 - Andrej Karpathy, [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 - Jake Van Clief e McDermott, [Interpretable Context Methodology](https://arxiv.org/abs/2603.16021); skill [`icm-architect`](https://github.com/RinDig/icm-architect).
 - Matt Pocock, a lógica do `grilling`, base da skill `grill`.
-- Addy Osmani, [agent-skills](https://github.com/addyosmani/agent-skills), de onde veio a ideia do desenho da skill.
+- Addy Osmani, [agent-skills](https://github.com/addyosmani/agent-skills), que mostra as partes de uma skill num desenho; o desenho da seção Skills é uma versão em português dele.
 
 ## Licença
 
